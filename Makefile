@@ -1,4 +1,4 @@
-NAME = bible_grid
+NAME = a4_grid bible_grid
 CLS = notebook.cls
 
 TEX = $(addsuffix .tex, $(NAME))
