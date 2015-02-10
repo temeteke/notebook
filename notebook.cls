@@ -1,14 +1,17 @@
 \NeedsTeXFormat{pLaTeX2e}
 \ProvidesClass{notebook}
 
-\LoadClass{book}
+\LoadClass[a4paper]{book}
 
 \usepackage{fancyhdr}
 \usepackage{etoolbox}
 
-\setlength{\paperwidth}{95truemm}
-\setlength{\paperheight}{171truemm}
-\special{papersize=95truemm,171truemm}
+\DeclareOption{biblepaper}{
+	\setlength{\paperwidth}{95truemm}
+	\setlength{\paperheight}{171truemm}
+	\special{papersize=95truemm,171truemm}
+}
+\ProcessOptions
 
 \newlength{\vmargin}
 \setlength{\vmargin}{2truemm}
