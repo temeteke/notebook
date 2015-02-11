@@ -56,12 +56,12 @@
 
 \pagestyle{fancy}
 \patchcmd{\@fancyhead}{\rlap}{
-	\color{darkgray}
+	\color{gray}
 	\fontsize{8pt}{8pt}\selectfont\rlap
 }{}{}
-\patchcmd{\headrule}{\hrule}{\color{lightgray}\hrule}{}{}
-\patchcmd{\@fancyfoot}{\rlap}{\color{lightgray}\rlap}{}{}
-\patchcmd{\footrule}{\hrule}{\color{lightgray}\hrule}{}{}
+\patchcmd{\headrule}{\hrule}{\color{gray}\hrule}{}{}
+\patchcmd{\@fancyfoot}{\rlap}{\color{gray}\rlap}{}{}
+\patchcmd{\footrule}{\hrule}{\color{gray}\hrule}{}{}
 
 \lhead{}
 \chead{}
