@@ -14,18 +14,19 @@
 \ProcessOptions
 
 \newlength{\vmargin}
-\setlength{\vmargin}{2truemm}
+\setlength{\vmargin}{3.18truemm}
 \newlength{\hmargin}
-\setlength{\hmargin}{2truemm}
+\setlength{\hmargin}{3.18truemm}
 \newlength{\bindingmargin}
-\setlength{\bindingmargin}{10truemm}
+\setlength{\bindingmargin}{13truemm}
+\addtolength{\bindingmargin}{-\hmargin}
 
 % portrait
 %% top
 \setlength{\voffset}{-1truein}
 \addtolength{\voffset}{\vmargin}
 \setlength{\topmargin}{0pt}
-\setlength{\headheight}{8truemm}
+\setlength{\headheight}{7truemm}
 \setlength{\headsep}{2truemm}
 % bottom
 \setlength{\footskip}{0pt}
